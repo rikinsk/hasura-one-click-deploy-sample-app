@@ -3,7 +3,7 @@ name: "hasura-sample-app"
 static-env:
   STREAMING_SUBSCRIPTION_FLAG: true
 
-user-env:
+user-envvv:
   PG_DATABASE_URL:
     description: "Postgres database URL"
     mandatory: true
