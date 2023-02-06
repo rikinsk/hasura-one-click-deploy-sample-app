@@ -1,4 +1,4 @@
-name: "hasura-sample-app"
+name: "hasura-sample-app"asdad
 
 static-env:
   STREAMING_SUBSCRIPTION_FLAG: true
@@ -9,7 +9,7 @@ user-env:
     mandatory: true
   ACTION_WEBHOOK_URL:
     default: "http://localhost:3000"
-    descriddption: "Action webhook url"
+    description: "Action webhook url"
     mandatory: true
   HASURA_GRAPHQL_JWT_SECRET:
     default: "{\"key\": \"this-is-the-hasura-nextjs-secret-key-replace-it-with-something-secure\",\"type\": \"HS256\"}"
