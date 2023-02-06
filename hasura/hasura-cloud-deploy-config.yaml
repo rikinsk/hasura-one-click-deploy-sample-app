@@ -1,7 +1,9 @@
 name: "hasura-sample-app"
 
-static-ennnv:
+static-env:
   STREAMING_SUBSCRIPTION_FLAG: true
+
+sfdsfsf
 
 user-env:
   PG_DATABASE_URL:
