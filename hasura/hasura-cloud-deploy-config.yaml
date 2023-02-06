@@ -1,4 +1,4 @@
-name: "hasura-sample-app"asdad
+name: "hasura-sample-app"
 
 static-env:
   STREAMING_SUBSCRIPTION_FLAG: true
