@@ -1,4 +1,4 @@
-# Sample Hasura project for one-click deploy testing
+# Sample Hasura project for one-click deploy testinggg
 
 
 - hasura_dir: "hasura"
