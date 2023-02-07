@@ -1,6 +1,17 @@
 # query to fetch article along with its ID by its ID
-query MyQuery {
+query FetchArticle1 {
   article(where: {id: {_eq: 1}}) {
+    id
+    title
+    author {
+      name
+    }
+  }
+}
+
+# query to fetch article along with its ID by its ID
+query FetchArticle2 {
+  article(where: {id: {_eq: 2}}) {
     id
     title
     author {
