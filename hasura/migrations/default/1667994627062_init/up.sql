@@ -1,5 +1,6 @@
 SET standard_conforming_strings = off;
 SET check_function_bodies = false;
+asdadasdadasd;
 SET escape_string_warning = off;
 CREATE TABLE public.article (
     id integer NOT NULL,
