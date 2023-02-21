@@ -9,3 +9,14 @@
   customization:
     naming_convention: hasura-default
   tables: "!include default/tables/tables.yaml"
+- name: PG2
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url:
+        from_env: PG_DATABASE_URL2
+      isolation_level: read-committed
+      use_prepared_statements: false
+  customization:
+    naming_convention: hasura-default
+  tables: "!include default/tables/tables.yaml"  
